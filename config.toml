@@ -1,4 +1,0 @@
-baseURL = 'https:/sirajudheenam.github.io/blog'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
-theme = 'hugo-theme-bootstrap'
