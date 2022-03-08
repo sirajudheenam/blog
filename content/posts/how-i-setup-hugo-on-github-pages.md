@@ -75,6 +75,7 @@ jobs:
           publish_dir: ./public 
 ```
 
+```
 echo "# blog" >> README.md
 git init
 git add .
@@ -83,7 +84,9 @@ git branch -M main
 git remote add origin https://github.com/sirajudheenam/blog.git
 git push -u origin main
 
-If everything works fine, then create a gh-pages branch on your github.
+# If everything works fine, then create a gh-pages branch on your github.
 
 git branch -b gh-pages
 
+# If you push anything, then it will build and generate hugo static pages and push to `gh-pages` branch.
+```
