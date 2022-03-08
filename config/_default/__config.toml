@@ -1,8 +1,8 @@
 baseURL = 'https:/sirajudheenam.github.io/blog'
 languageCode = 'en-us'
 title = 'Blog Site'
-theme = 'hugo-theme-bootstrap'
-disableLanguages = ["fr", "zh-cn" ,"zh-tw"]
+# theme = 'hugo-theme-bootstrap'
+# disableLanguages = ["fr", "zh-cn" ,"zh-tw"]
 
 theme = "hugo-theme-bootstrap"
 copyright = "Copyright © 2016-{year} Sirajudheen Mohamed Ali. All Rights Reserved."
@@ -27,10 +27,10 @@ enableEmoji = true
 
 # hasCJKLanguage = true # Turn on it if your content contains Chinese/Japanese/Korean Languages.
 
-pygmentsUseClasses = true
+# pygmentsUseClasses = true
 
-[blackfriday]
-  hrefTargetBlank = true
+#[blackfriday]
+#  hrefTargetBlank = true
 
 [mediaTypes]
   [mediaTypes."application/manifest+json"]
@@ -45,7 +45,7 @@ pygmentsUseClasses = true
 [outputs]
   home = ["HTML", "RSS", "JSON", "MANIFEST"]
 
-[taxonomies]
-  category = "categories"
-  series = "series"
-  tag = "tags"
+#[taxonomies]
+#  category = "categories"
+#  series = "series"
+#  tag = "tags"
