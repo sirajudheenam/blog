@@ -99,7 +99,7 @@ viewer = true # Image Viewer
   # nd = true # No derivatives or adaptations of your work are permitted.
   # sa = true # Adaptations must be shared under the same terms.
 
-[utterances]
+[_utterances]
   repo = "razonyang/hugo-theme-bootstrap-comments" # Replace with your repository.
   #issueTerm = "pathname" # pathname, url, title, og:title
   #label = "comment"
@@ -107,7 +107,7 @@ viewer = true # Image Viewer
   # Optional values: github-light, github-dark, preferred-color-scheme, github-dark-orange, icy-dark, dark-blue, photon-dark.
   #theme = "" 
 
-[search]
+[_search]
   paginate = 5 # Pagination. Default to 10.
   # resultContentWordCount = 240 # The maximum word count of result content for displaying.
   # Fuse.js options. See https://fusejs.io/api/options.html.
@@ -120,14 +120,14 @@ viewer = true # Image Viewer
     # distance = 100
     # useExtendedSearch = true
 
-[reward]
+[_reward]
   alipay = "images/reward/alipay.png"
   wechat = "images/reward/wechat.png"
   #paypal = "images/reward/paypal.png"
   #patreon = "images/reward/patreon.png"
   #liberapay = "images/reward/liberapay.png"
 
-#[share]
+#[_share]
   #addThis = "" # AddThis pubid.
 
 [fontSize] # Comment or remove this settings to disable font size switcher.
@@ -136,7 +136,7 @@ viewer = true # Image Viewer
   # large = "1.1rem"
   # extraLarge = "1.2rem"
 
-[pwa]
+[_pwa]
   [pwa.manifest]
     # name = "" # Default to site title.
     short_name = "HBS"
@@ -153,7 +153,7 @@ viewer = true # Image Viewer
     #   sizes = "144x144"
     #   src = "/images/icons/icon-144x144.png"
 
-[contact]
+[_contact]
   endpoint = "https://getform.io/f/56041c81-9e03-4c24-b9c5-61238854d4cd" # Backend endpoint, remove this line if you're using Netlify.
   # file = true # Enable file upload
   # fileField = "image" # The name of file field.
