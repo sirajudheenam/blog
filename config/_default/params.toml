@@ -1,4 +1,4 @@
-mainSections = ["posts", "docs"] # Default to ["posts"].
+#mainSections = ["posts", "docs"] # Default to ["posts"].
 
 # titleSeparator = "|" # Title separator. Default to "-".
 
@@ -11,7 +11,7 @@ keywords = "Hugo, Bootstrap, Blog Theme"
 
 # logo = "images/logo.png" # Logo image. Default to "images/logo.webp".
 # logo = false # Disable Logo
-brand = "BOOTSTRAP"
+#brand = "BOOTSTRAP"
 
 palette = "blue" # Default palette. Optional. You'll need to clear the browser cache after modifying this.
 # palettes = ["blue", "blue gray", "brown"] # Available palettes. Default to ALL.
@@ -67,7 +67,7 @@ titleCase = true # Capitalized title.
 viewer = true # Image Viewer
 
 [codeBlock]
-  # maxLines = 8
+  maxLines = 40
   lineNos = false # true/false represents that show/hide the line numbers by default.
 
 [post]

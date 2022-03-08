@@ -2,4 +2,5 @@ baseURL = 'https:/sirajudheenam.github.io/blog'
 languageCode = 'en-us'
 title = 'Blog Site'
 theme = 'hugo-theme-bootstrap'
+disableLanguages = ["fr", "zh-cn" ,"zh-tw"]
 googleAnalytics = ""
