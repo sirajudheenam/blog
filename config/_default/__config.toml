@@ -1,10 +1,10 @@
-baseURL = 'https:/sirajudheenam.github.io/blog'
-languageCode = 'en-us'
-title = 'Blog Site'
+#baseURL = 'https:/sirajudheenam.github.io/blog'
+#languageCode = 'en-us'
+#title = 'Blog Site'
 # theme = 'hugo-theme-bootstrap'
 # disableLanguages = ["fr", "zh-cn" ,"zh-tw"]
 
-theme = "hugo-theme-bootstrap"
+#theme = "hugo-theme-bootstrap"
 copyright = "Copyright © 2016-{year} Sirajudheen Mohamed Ali. All Rights Reserved."
 
 # Multilingual mode
