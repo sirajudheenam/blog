@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: /sitemap.xml
+Sitemap: https:///sirajudheenam.github.io/blog/sitemap.xml
